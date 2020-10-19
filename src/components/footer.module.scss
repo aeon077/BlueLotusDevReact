@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=PT+Sans+Narrow:wght@400;700&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+// font-family: 'Cabin Sketch', cursive;
+// font-family: 'PT Sans', sans-serif;
+// font-family: 'PT Sans Narrow', sans-serif;
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer {
+    padding-top: 1rem;
+    position: absolute;
+    height: 80px;
+    background-color: #7d87bf;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    padding-left: 1rem;
+    color: white;
+    justify-content: center;
+
+    p {
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
