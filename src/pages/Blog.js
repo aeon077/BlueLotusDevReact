@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 import blogStyles from './blog.module.scss'
 import Head from '../components/Head';
 import useContentful from '../hooks/use-contentful';
+import '../components/fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const query = `
 query {
@@ -26,7 +28,7 @@ const BlogPage = () => {
     <>
       <Layout >
         <Head title="Blog" />
-        <h1>Blog</h1>
+        <h1><FontAwesomeIcon icon={['fas', 'blog']} size="s"/>  My Blog!</h1>
         <hr />
         <div></div>
         <ol className={blogStyles.posts}>

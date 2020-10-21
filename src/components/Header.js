@@ -1,9 +1,8 @@
 import React from 'react';
 import headerStyles from './header.module.scss';
 import Lotus from '../images/lotus-flower.png';
-import { HouseDoorFill, FilePerson, CodeSlash } from 'react-bootstrap-icons'
+import './fontawesome'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHome } from '@fortawesome/free-solid-svg-icons'
 
 
 const Header = () => {
@@ -29,11 +28,11 @@ const Header = () => {
                         </a></div>
                     </div>
                     <ul className={headerStyles.navlist}>
-                        <li><a className={headerStyles.navitem} href="/"><FontAwesomeIcon icon={["fas", "faHome"]} />  Home</a></li>
-                        <li><a className={headerStyles.navitem} href="/about"><FilePerson color="white" size={20} />  About Me</a></li>
-                        <li><a className={headerStyles.navitem} href="/contact"><CodeSlash color="white" size={20} />  Portfolio</a></li>
-                        <li><a className={headerStyles.navitem} href="/contact">Contact</a></li>
-                        <li><a className={headerStyles.navitem} href="/blog">Blog</a></li>
+                        <li><a className={headerStyles.navitem} href="/"><FontAwesomeIcon icon={['fas', 'home']} size="xs"/>  Home</a></li>
+                        <li><a className={headerStyles.navitem} href="/about"><FontAwesomeIcon icon={['fas', 'user']} size="xs"/> About Me</a></li>
+                        <li><a className={headerStyles.navitem} href="/contact"><FontAwesomeIcon icon={['fas', 'code']} size="xs"/> Portfolio</a></li>
+                        <li><a className={headerStyles.navitem} href="/contact"><FontAwesomeIcon icon={['fas', 'paper-plane']} size="xs"/> Contact</a></li>
+                        <li><a className={headerStyles.navitem} href="/blog"><FontAwesomeIcon icon={['fas', 'blog']} size="xs"/> Blog</a></li>
                     </ul>
                 </nav>
 
