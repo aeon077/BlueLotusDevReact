@@ -6,12 +6,12 @@ font-family: 'PT Sans Narrow', sans-serif; */
 * {
   margin: 0;
   font-family: 'PT Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .App {
   text-align: center;
 }
-
 
 .App-header {
   background-color: #282c34;
@@ -27,4 +27,3 @@ font-family: 'PT Sans Narrow', sans-serif; */
 .App-link {
   color: #61dafb;
 }
-
